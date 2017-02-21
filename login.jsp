@@ -8,7 +8,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >        
         <title>Login - Income Tax Return</title>
-        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">//this page is giving refrence of style.css which is the style sheet file of the pages.
         <script type="text/javascript">
             function checkform(){
                 var uname = document.getElementById('txtuname');
@@ -29,7 +29,7 @@
     <body>
         <table  cellspacing="0" cellpadding="0" align="center" border="0" class="body_content">          
 
-             <%@include file="header.html" %>
+             <%@include file="header.html" %> // including header.html file which contains home login and registration links available on each page.
             <tr>
                 <td width="950"  height="500" valign="top" style="padding-left: 10px;padding-right: 10px;">
                     <table align="center" cellpadding="0" cellspacing="0">
@@ -53,7 +53,7 @@
                                                     <tr>
                                                         <td colspan="2" align="center">
                                                             <div style="width:100%;color: #3278A3; font-size: 12px;font-weight: bold;" align="center"><%=msg%></div>
-                                                        </td>
+                                                       </td>
                                                     </tr>
                                                     <%
                                                             session.removeAttribute("MSG");
