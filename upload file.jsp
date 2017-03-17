@@ -23,7 +23,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >        
         <title>Upload File </title>
         <link href="css/style.css" rel="stylesheet" type="text/css">
-        <script type="text/javascript">
+        <script type="text/javascript">// THE FUNCTION BELOW IS USED TO VALIDATE THE FORM AT THE TIME OF SUBMIT THIS FUNCTION IS CALLED
             function checkform(){
                 
                 var password = document.getElementById('txtpassword');
